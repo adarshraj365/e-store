@@ -1,0 +1,35 @@
+.banner {
+    position: relative;
+    width: 100%;
+    background: url('../../assets/img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    
+}
+
+.text {
+    /* height: fit-content; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.404);
+    transform: translate(-50%,-50%);
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.sub_heading {
+    font-weight: 300;
+    font-size: 20px;
+}
